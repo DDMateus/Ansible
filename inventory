@@ -1,6 +1,3 @@
 [webservers]
-10.0.2.219
-10.0.3.26
-
-[all:vars]
-ansible_python_interpreter=/usr/bin/python2.7
+10.0.2.219 ansible_python_interpreter=/usr/bin/python3
+10.0.3.26  ansible_python_interpreter=/usr/bin/python3
